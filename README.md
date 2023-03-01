@@ -3,12 +3,12 @@
 This is the codification used in the IROS 2023 paper proposing BRNES framework as means of accelerating learning in Multiagent Systems composed of advisee and advisor agents. You are free to use all or part of the codes here presented for any purpose, provided that the paper is properly cited and the original authors properly credited. All the files here shared come with no warranties.
 
 
-This project was built on Python 3.8. All the experiments are executed in the Predator-Prey (PP) domain, we included the version we used in the **Main/PP_environment** folder (slightly different from the standard PP domain). For the graph generation code you will need to install Jupyter Notebook (http://jupyter.readthedocs.io/en/latest/install.html).
+This project was built on Python 3.8. All the experiments are executed in the modified Predator-Prey (PP) domain, we included the version we used in the **Main/PP_environment** folder (slightly different from the standard PP domain). For the graph generation code you will need to install Jupyter Notebook (http://jupyter.readthedocs.io/en/latest/install.html).
 
 ## Files
 The folder **Main** contains our implementation of all algorithms and experiments
 
-The folder **Main/PP_environment** contains the Predator-Prey environment (also called a Pursuit domain) we used for experiments
+The folder **Main/PP_environment** contains the modified Predator-Prey environment (also called a Pursuit domain) we used for experiments
 
 Finally, the folder **ProcessedFiles** contains already processed files for graph printing and data visualization
 
