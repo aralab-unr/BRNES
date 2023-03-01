@@ -1,4 +1,4 @@
-# BRNES: Byzantine Robust Neighbor Experience Sharing in Differentially Private Multiagent Reinforcement Learning
+# BRNES: Enabling Security and Privacy-aware Experience Sharing in Multiagent Robotic and Autonomous Systems
 
 This is the codification used in the IROS 2023 paper proposing BRNES framework as means of accelerating learning in Multiagent Systems composed of advisee and advisor agents. You are free to use all or part of the codes here presented for any purpose, provided that the paper is properly cited and the original authors properly credited. All the files here shared come with no warranties.
 
