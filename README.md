@@ -93,7 +93,8 @@ Your output graphs will be stored in "Main/fig4(a-d)_SG.svg", "Main/fig4(a-d)_Re
 	
 	
 	
-
+## Video Examples
+Please find the Video example of Adversarial Manipulation problem in MARL for a Medium-scale environment (5x5 grid with 5 agents, 1 goal, 1 obstacles, and 1 freeway). "Without BRNES-11.mov" to "Without BRNES-14.mov" are the video example of adversarial manipulation WITHOUT BRNES framework. And "With BRNES-21.mov" to "With BRNES-22.mov" are the video example of adversarial manipulation WITH BRNES framework. As it can be seen from the video, adversarial manipulation is severely degrading the MARL performance without BRNES framework, while MARL performance does not degrade with BRNES framework.
 
 ## Contact
 For questions about the codification or paper, please send an email to mdtamjidh@nevada.unr.edu or aralab2018@gmail.com.
