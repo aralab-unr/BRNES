@@ -5,6 +5,10 @@ This is the codification used in the IROS 2023 paper proposing BRNES framework a
 
 This project was built on Python 3.8. All the experiments are executed in the modified Predator-Prey (PP) domain, we included the version we used in the **Main/PP_environment** folder (slightly different from the standard PP domain). For the graph generation code you will need to install Jupyter Notebook (http://jupyter.readthedocs.io/en/latest/install.html).
 
+## Abstract
+Although experience sharing (ES) accelerates multiagent reinforcement learning (MARL) in an advisor-advisee framework, attempts to apply ES to decentralized multiagent systems (MAS) have so far relied on trusted environments and overlooked the possibility of adversarial manipulation and inference. Nevertheless, in a real-world setting, some Byzantine attackers, disguised as advisors, may provide false advice to the advisee and catastrophically degrade the overall learning performance. Also, an inference attacker, disguised as an advisee, may conduct several queries to infer the advisors' private information and make the entire ES process questionable in terms of privacy leakage. To address and tackle these issues, we propose a novel MARL framework (BRNES) that heuristically selects a dynamic neighbor zone for each advisee at each learning step and adopts a weighted experience aggregation technique to reduce Byzantine attack impact. Furthermore, to keep the agent's private information safe from adversarial inference attacks, we leverage the local differential privacy (LDP)-induced noise during the ES process. Our experiments show that our framework outperforms the state-of-the-art in terms of the steps to goal, obtained reward, and time to goal metrics. Particularly, our evaluation shows that the proposed framework is 8.32x faster than the current non-private frameworks and 1.41x faster than the private frameworks in an adversarial setting.
+
+
 ## Files
 The folder **Main** contains our implementation of all algorithms and experiments
 
@@ -97,4 +101,4 @@ Your output graphs will be stored in "Main/fig4(a-d)_SG.svg", "Main/fig4(a-d)_Re
 Please find the Video example of Adversarial Manipulation problem in MARL for a Medium-scale environment (5x5 grid with 5 agents, 1 goal, 1 obstacles, and 1 freeway). "Without BRNES-11.mov" to "Without BRNES-14.mov" are the video examples of adversarial manipulation WITHOUT BRNES framework. And "With BRNES-21.mov" to "With BRNES-22.mov" are the video examples of adversarial manipulation WITH BRNES framework. As it can be seen from the video, adversarial manipulation is severely degrading the MARL performance without BRNES framework, while MARL performance does not degrade with BRNES framework.
 
 ## Contact
-For questions about the codification or paper, please send an email to mdtamjidh@nevada.unr.edu or aralab2018@gmail.com.
+For questions about the codification or paper, <br />please send an email to mdtamjidh@nevada.unr.edu or aralab2018@gmail.com.
