@@ -114,7 +114,7 @@ class Env:
 
         # reset agents' position
         
-        with open("../RandomPosition/C"+str(0)+ "_L"+str(LoopVal)+
+        with open("RandomPosition/C"+str(0)+ "_L"+str(LoopVal)+
               "_H"+str(gridHeight)+"_W"+str(gridHeight)+"_N"+str(noAgent)+
               "_O"+str(noObs)+"_E"+str(totalEpisode)+"_Nw"+str(neighborWeights), "rb") as Pp:
             position = pickle.load(Pp)
