@@ -38,7 +38,7 @@ ax0.set_xlabel('Episodes')
 ax1.set_xlabel('Episodes')
 ax2.set_xlabel('Episodes')
 ax3.set_xlabel('Episodes')
-ax0.set_ylabel('Average steps')
+ax0.set_ylabel('Convergence')
 labelList = ['(a)', '(b)', '(c)', '(d)']
 
 episodeNum = int(sys.argv[1])
